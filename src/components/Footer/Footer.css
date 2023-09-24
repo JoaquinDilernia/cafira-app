@@ -1,0 +1,22 @@
+.contenedor-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    color: #000;
+    height: 70px;
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 2rem 2rem 0 0;
+    -moz-border-radius: 2rem 2rem 0 0;
+    -ms-border-radius: 2rem 2rem 0 0;
+    -o-border-radius: 2rem 2rem 0 0;
+}
+
+.contenedor-footer p {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+

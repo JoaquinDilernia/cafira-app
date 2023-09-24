@@ -1,0 +1,91 @@
+.contenedor-vendedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .contenedor-vendedor h1{
+    margin-bottom: 1rem;
+  }
+  
+  .contenedor-vendedor select{
+    width: 400px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+  }
+  
+  select:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: all 0.2s ease-in-out;
+    -webkit-transform: scale(1.01);
+    -moz-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    -o-transform: scale(1.01);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+  }
+  
+  select:focus{
+    outline: none;
+  }
+  
+  .contenedor-vendedor option{
+    font-size: 1.2rem;
+  }
+
+  .boton-vendedor{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    background-color: #1c1c1c;
+    color: #fff;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+  }
+
+  .boton-vendedor:hover{
+    cursor: pointer;
+    border: #1c1c1c solid 2px;
+    background-color: #fff;
+    color: #1c1c1c;
+  }
+
+.formulario-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: auto;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.formulario-login img{
+  height: 100px;
+  margin-bottom: 3rem;
+}
+
+
